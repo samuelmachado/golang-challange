@@ -1,0 +1,8 @@
+go test ./...
+go test -cover
+go test -coverprofile=resultado.out
+go tool cover -func=resultado.out
+go tool cover -html=resultado.out
+go get -u github.com/go-sql-driver/mysql
+go run *.go
+go run arquivo1.go arquivo2.go
