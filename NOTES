@@ -1,0 +1,2 @@
+go run *.go
+go run arquivo1.go arquivo2.go
